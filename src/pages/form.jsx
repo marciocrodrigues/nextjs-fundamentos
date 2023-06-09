@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function form() {
+const Form = () => {
   const [nome, setNome] = useState("");
   const [idade, setIdade] = useState(0);
   const [usuarios, setUsuarios] = useState([])
@@ -46,3 +46,5 @@ export default function form() {
     </div>
   );
 }
+
+export default Form
